@@ -1,0 +1,6 @@
+﻿What’s the main purpose of the SQL language?
+Main purpose: to create a paradigm for accessing structured data;
+SQL is a standard language for accessing databases
+Ex: 
+SELECT FirstName, LastName, JobTitle
+FROM: Employees

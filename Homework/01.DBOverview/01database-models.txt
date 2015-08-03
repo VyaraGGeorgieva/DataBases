@@ -1,0 +1,14 @@
+﻿What database models do you know?
+Due to the need for linkage of data coming from different sources, database models were created. Types of existing database models are:
+1) Hierarchical model;
+2) Relational Model;
+3) Object/relational model;
+4) Object-oriented model;
+5) Network model;
+6) Entity-relationship model;
+7) Document model;
+8) Entity-attribute-value model;
+9) Star schema;
+
+      Hierarchical model: data here is organized in tree-like structures. There is a hierarchy of parent and child data segments. This structure implies that a record can have repeating information, generally in the child data segments. Data is in a series of records, which have a set of field values attached to it. It collects all the instances of a specific record together as a record type. These record types are the equivalent of tables in the relational model, and with the individual records being the equivalent of rows. To create links between these record types, the hierarchical model uses Parent Child Relationships. These are a 1:N mapping between record types. This is done by using trees, like set theory used in the relational model, "borrowed" from maths. For example, an organization might store information about an employee, such as name, employee number, department, salary. The organization might also store information about an employee's children, such as name and date of birth. The employee and children data forms a hierarchy, where the employee data represents the parent segment and the children data represents the child segment. If an employee has three children, then there would be three child segments associated with one employee segment. In a hierarchical database the parent-child relationship is one to many. This restricts a child segment to having only one parent segment. Hierarchical DBMSs were popular from the late 1960s, with the introduction of IBM's Information Management System (IMS) DBMS, through the 1970s.
+

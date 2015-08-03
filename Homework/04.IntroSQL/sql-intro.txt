@@ -1,0 +1,9 @@
+﻿What is SQL? What is DML? What is DDL? Recite the most important SQL commands
+SQL (Structured Query Language) is a computer language for storing, manipulating and retrieving data, stored in a relational DataBase.
+SQL consists of:
+DML (Data Manipulation Language):
+SELECT, INSERT, UPDATE, DELETE;
+DDL (Data Definition Language):
+CREATE, DROP, ALTER
+and DCL (Data Control Language):
+GRANT, REVOKE

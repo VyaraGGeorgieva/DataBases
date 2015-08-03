@@ -1,0 +1,7 @@
+﻿What is a certain database schema normalized?
+The term normalization refers to a series of steps used to eliminate redundancy and reduce the chances of data inconsistency in a database's schema. There are six forms of normalization described in relational database theory:
+• First Normal Form -  every record within a table should have the same "shape", which means that every field should contain a single value only, and each row should contain the same fields. Duplicated fields (or groups of fields) should be removed.
+• Second Normal Form - ll non-primary-key fields which are dependent on part but not all of a primary key should be removed and placed in a separate table.
+•  Third Normal Form - All fields which are dependent on a non-primary-key field should be removed and placed in a separate table;
+
+

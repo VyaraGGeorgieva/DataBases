@@ -1,0 +1,13 @@
+﻿Explain the different kinds of relationships between tables in relational databases.
+Types of relationships, based on the interconnections primary key-foreign key:
+- One to One: One entity is associated with another entity.
+Ex: Each employee is associated with one department
+
+- One to Many: One entity is associated with many other entities. 
+Ex: A company is associated with all working employees in one branch/office/country.
+
+- Many to One: Many entities are associated with only one entity.
+Ex: Many employees are associated with one project.
+
+- Many to Many: Many entities are associated with many other entities. 
+Ex: In a company many employees are associated with multiple projects(completed/existing), and at the same time, projects are associated with multiple employees.

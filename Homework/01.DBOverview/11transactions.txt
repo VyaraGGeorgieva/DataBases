@@ -1,0 +1,17 @@
+﻿What are transactions used for?
+A transaction is a sequence of operations performed as a single logical unit of work. A logical unit of work must exhibit four properties, called the atomicity, consistency, isolation, and durability (ACID) properties, to qualify as a transaction.
+Example:
+we have an Account table which represents a Bank Account and we will transfer money from one account to another account
+
+Request: transfer 900$ from Account 9001 to 9002
+
+start transaction
+select balance from Account where Account_Number='9001';
+select balance from Account where Account_Number='9002';
+update Account set balance=balance-900 here Account_Number='9001' ;
+update Account set balance=balance+900 here Account_Number='9002' ;
+commit; //if all sql queries succeed
+rollback; //if any of the Sql queries failed or error
+
+
+

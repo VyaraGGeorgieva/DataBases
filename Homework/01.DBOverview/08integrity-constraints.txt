@@ -1,0 +1,10 @@
+﻿What are database integrity constraints and when are they used?
+Integrity constraints are used to ensure accuracy and consistency of data in a relational database. Data integrity is handled in a relational database through the concept of referential integrity. Many types of integrity constraints play a role in referential integrity (RI).
+Types: 
+Primary Key Constraint – it ensures that a definite column is unique;
+
+Not Null Constraint – ensures that no null values are allowed;
+Foreign key constraints – ensures that two keys share a primary key to foreign key relationship;
+Data cleanliness - Constraints verify that the data in the data warehouse conforms to a basic level of data consistency and correctness, preventing the introduction of dirty data.
+
+

@@ -1,0 +1,2 @@
+﻿Explain the difference between a primary and foreign key.
+A primary key functions as the unique identifier for a particular data row. It is obligatory to be inserted in each table schema. The FK, on the other hand, provides the linkage between two tables, it creates relationship.

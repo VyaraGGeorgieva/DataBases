@@ -1,0 +1,2 @@
+﻿Define what is “table” in database terms 
+Table is the collection of columns and their types.

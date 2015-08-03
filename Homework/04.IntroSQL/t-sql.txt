@@ -1,0 +1,1 @@
+﻿T-SQL: Transact SQL is an SQL-extension of the standard SQL. It supports loops, if-s, exceptions, functions, triggers and so on.

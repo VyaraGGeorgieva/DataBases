@@ -1,0 +1,5 @@
+﻿Which are the main functions performed by a RDBMS?
+An RDBMS helps to:
+1) Organize data logically;
+2) Arrange it in tables;
+3) Create linkage between data from different tables, based on the PK-FK relationships
